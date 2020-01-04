@@ -12,6 +12,11 @@ footer {
 	margin: 20px;
 }
 
+#wait {
+	font-size: large;
+	font-size: 3vmax;
+}
+
 .restaurant {
 	font-size: larger;
 	font-size: 3vmax;
