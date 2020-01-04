@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+	<head>
+		<title>Safe to Eat in NY?</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<div class="container">
+			<h1>Safe To Eat?</h1>
+			<form id="searchInput">
+				<label>
+					<input type="text" id="name" required autocomplete="off"/>
+					<div class="label-text">Restaurant Name</div>
+				</label>
+				<button type='button' id="searchButton" onclick="findGrade()">SEARCH</button>
+			</form>
+			<p id="output"></p>
+			<p id="choices"></p>
+			<p id="searchAgain">
+				<button id="searchAgainButton" onclick="searchAgain()">SEARCH AGAIN</button>
+			</p>
+		</div>
+		<footer>
+			<div> All data via <a target="_blank" href = "https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j/data">NYC Open Data</a> </div>
+			<div>eatsafenyc@gmail.com</div>
+		</footer>
+	</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="index.js"></script>
+</html>
