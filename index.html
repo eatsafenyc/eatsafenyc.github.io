@@ -12,7 +12,6 @@
 		  gtag('config', 'UA-155322825-1');
 		</script>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="propeller" content="751161e7635bb1c3de1a14f56a9ad630">
 	</head>
 	<body>
 		<div class="container">
@@ -22,7 +21,7 @@
 					<input type="text" id="name" required autocomplete="off"/>
 					<div class="label-text">Restaurant Name</div>
 				</label>
-				<p id="wait"></p>
+				<div id="wait" class="loading-spinner"></div>
 				<button type='button' id="searchButton" onclick="findGrade()">SEARCH</button>
 			</form>
 			<p id="output"></p>
